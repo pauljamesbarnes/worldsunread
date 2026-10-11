@@ -530,3 +530,10 @@ footer span {
     grid-column: auto;
   }
 }
+
+/* False Baron live launch */
+.purchase-actions { display:flex; flex-wrap:wrap; gap:12px; margin:24px 0 12px; }
+.opening-excerpt { border-top:1px solid var(--line); margin-top:40px; padding-top:30px; scroll-margin-top:24px; }
+.opening-excerpt p { max-width:65ch; }
+a:focus-visible { outline:3px solid var(--accent); outline-offset:4px; }
+@media(max-width:480px) { .purchase-actions .button { width:100%; text-align:center; } }
